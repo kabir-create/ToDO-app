@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import BoardForm from "../components/BoardForm";
+import BoardForm from "../components/boardform";
 
 interface Board {
   id: number;
@@ -43,9 +43,7 @@ export default function BoardsPage() {
   return (
     <div className="p-6">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">
-          Welcome, {userName || "User"}!
-        </h1>
+        <h1 className="text-2xl font-bold">Welcome, {userName || "User"}!</h1>
         <button
           onClick={() => setShowForm(true)}
           className="px-4 py-2 bg-green-600 text-white rounded"

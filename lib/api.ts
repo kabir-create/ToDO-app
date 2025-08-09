@@ -1,3 +1,4 @@
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 export async function getBoards() {
   const token = localStorage.getItem("token"); // Make sure token is stored at login/register
 
