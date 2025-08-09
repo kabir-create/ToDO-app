@@ -76,7 +76,11 @@ class Database {
   }
 
   // ===== USER =====
-  createUser(userData: Omit<User, "id">): User {
+  createUser(userData: {
+    email: string;
+    password?: string;
+    [key: string]: any;
+  }): User {
     const user: User = { id: this.generateId(), ...userData };
     this.data.users.push(user);
     this.persist();
@@ -97,7 +101,6 @@ class Database {
     }
     return user;
   }
-  
 
   // ===== BOARDS =====
   createBoard(boardData: Omit<Board, "id" | "createdAt">): Board {
