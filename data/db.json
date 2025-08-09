@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": 6,
+      "email": "tanishcmpunk@gmail.com",
+      "password": "$2a$12$.9JQNvB9wxfEiJuX.KLvQ.UOvYoxJFZ29/gD56dKgkXcIIBnbS.TK",
+      "name": "Tanish Yadav",
+      "createdAt": "2025-08-09T15:12:53.093Z"
+    }
+  ],
+  "boards": [
+    {
+      "id": 1,
+      "name": "Project Alpha",
+      "description": "Demo project board",
+      "userId": 1,
+      "createdAt": "2025-08-09T14:09:55.717Z"
+    },
+    {
+      "id": 2,
+      "name": "Project Beta",
+      "description": "Second demo board",
+      "userId": 1,
+      "createdAt": "2025-08-09T14:09:55.717Z"
+    },
+    {
+      "id": 7,
+      "name": "Project Alpha",
+      "description": "Demo project board",
+      "userId": 6,
+      "createdAt": "2025-08-09T15:12:53.094Z"
+    },
+    {
+      "id": 8,
+      "name": "Project Beta",
+      "description": "Second demo board",
+      "userId": 6,
+      "createdAt": "2025-08-09T15:12:53.095Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 3,
+      "title": "Initial setup",
+      "description": "Install dependencies",
+      "boardId": 1,
+      "dueDate": null,
+      "createdAt": "2025-08-09T14:09:55.717Z",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "title": "Design mockups",
+      "description": "UI/UX design",
+      "boardId": 2,
+      "dueDate": null,
+      "createdAt": "2025-08-09T14:09:55.718Z",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "title": "solve leetcode problem",
+      "description": "",
+      "boardId": 1,
+      "dueDate": null,
+      "status": "pending",
+      "createdAt": "2025-08-09T14:21:13.744Z"
+    },
+    {
+      "id": 9,
+      "title": "Initial setup",
+      "description": "Install dependencies",
+      "boardId": 7,
+      "dueDate": null,
+      "createdAt": "2025-08-09T15:12:53.095Z",
+      "status": "pending"
+    },
+    {
+      "id": 10,
+      "title": "Design mockups",
+      "description": "UI/UX design",
+      "boardId": 8,
+      "dueDate": null,
+      "createdAt": "2025-08-09T15:12:53.095Z",
+      "status": "pending"
+    }
+  ],
+  "nextId": 11
+}
